@@ -5,6 +5,7 @@
 
 
 
+
 document.addEventListener("DOMContentLoaded", () => {
   const speech = document.getElementById("message");
   function say(text) {
@@ -141,6 +142,7 @@ function shuffleArray(array) {
               if (img.getAttribute("src") === chosenCardSrc) {
                 img.parentElement.classList.add("result-card"); // add animation class
               }
+              
             });
 
             // Optional: also show alert
@@ -152,3 +154,4 @@ function shuffleArray(array) {
     });
   });
 });
+
